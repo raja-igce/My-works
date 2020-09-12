@@ -1,0 +1,32 @@
+.paging-nav ol,
+.paging-nav ul {
+  overflow: hidden;
+  list-style: none;
+  margin: 1em 0 1em 0;
+  padding: 0;
+}
+
+.paging-nav li {
+  float: left;
+  cursor: pointer;
+  margin: 0 .5em 0 0;
+}
+
+.paging-nav a {
+  display: block;
+  cursor: pointer;
+  height: 1.4em;
+  width: 1.4em;
+  border: 1px #1e90ff solid;
+  line-height: 1.4em;
+  text-align: center;
+  color: #111;
+  text-decoration: none;
+}
+
+.paging-nav .active a {
+  border-color: #1e90ff;
+  background-color:#1e90ff;
+  color: #fff;
+}
+
